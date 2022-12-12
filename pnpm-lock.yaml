@@ -11,6 +11,7 @@ specifiers:
   graphql: 16.6.0
   graphql-request: 5.0.0
   next: latest
+  next-themes: 0.2.1
   postcss: ^8.4.18
   react: 18.2.0
   react-dom: 18.2.0
@@ -24,6 +25,7 @@ dependencies:
   graphql: 16.6.0
   graphql-request: 5.0.0_rjjjs2nwgns3bcvnnqb5eu5nry
   next: 13.0.6_biqbaboplfbrettd7655fr4n2y
+  next-themes: 0.2.1_6jx7hpii6hgsrmhxgqrmo3277u
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -553,6 +555,18 @@ packages:
     resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+
+  /next-themes/0.2.1_6jx7hpii6hgsrmhxgqrmo3277u:
+    resolution: {integrity: sha512-B+AKNfYNIzh0vqQQKqQItTS8evEouKD7H5Hj3kmuPERwddR2TxvDSFZuTj6T7Jfn1oyeUyJMydPl1Bkxkh0W7A==}
+    peerDependencies:
+      next: '*'
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      next: 13.0.6_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /next/13.0.6_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-COvigvms2LRt1rrzfBQcMQ2GZd86Mvk1z+LOLY5pniFtL4VrTmhZ9salrbKfSiXbhsD01TrDdD68ec3ABDyscA==}
