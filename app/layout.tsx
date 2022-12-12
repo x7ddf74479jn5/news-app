@@ -4,9 +4,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html>
       <head />
-      <body>
+      <body className="bg-gray-100 dark:bg-zinc-900 transition-all duration-700  ">
         <Header />
-        <div>{children}</div>
+        <main className="max-w-6xl mx-auto">{children}</main>
       </body>
     </html>
   );
